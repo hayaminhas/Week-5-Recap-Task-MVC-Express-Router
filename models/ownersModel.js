@@ -2,7 +2,7 @@
 
 //________________________IMPORTS__________________________
 // Import the 'pool' object so our helper functions can interact with the PostgreSQL database
-import { pool } from "./db/index.js";
+import { pool } from "../db/index.js";
 
 // _______________________ HELPER FUNCTION: GET owners REQUEST HELPER _______________________
 export async function getOwners() {
